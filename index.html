@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Taks List</title>
+  </head>
+  <body>
+    <h2>Task List</h1>
+    <form id="task-form">
+      <label for="input">Input</label>
+      <input type="text" id="task-input" placeholder="Task" />
+      <input type="submit" id="submit" />
+    </form>
+    <div class="card-action">
+      <h3 id="task-title">Tasks</h3>
+      <input type="text" id="filter" placeholder="Filter" />
+        <ul class="task-list"></ul>
+      <a href="#" id="clear-tasks">Clear Tasks</a>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

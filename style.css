@@ -1,0 +1,76 @@
+body {
+  background-color: #343a40;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  margin: 40px;
+}
+
+h3 {
+  color: #333;
+}
+
+#task-form {
+  background-color: #f4f4f4;
+  width: 300px;
+  height: 500x;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.card-action {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+li .delete-item {
+  margin-left: 2rem;
+}
+
+#clear-tasks,
+input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 15px auto;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #ccc;
+  color: #333;
+  border-radius: 5px;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  width: 60%;
+  margin: 2rem auto;
+  text-align: left;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  color: #333;
+  margin: 20px;
+}
